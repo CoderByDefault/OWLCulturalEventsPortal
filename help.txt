@@ -1,0 +1,6 @@
+Port number 4200 is already in use. Type below command in cmd:
+
+netstat -a -n -o
+And then, find port with port number 4200 by right click on terminal and click find, enter 4200 in "find what" and click "find next": Let say you found that port number 4200 is used by pid 18932. Type below command in cmd:
+
+taskkill -f /pid 18932

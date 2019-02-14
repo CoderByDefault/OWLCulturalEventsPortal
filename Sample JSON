@@ -1,0 +1,284 @@
+{
+	"eventID": "001",
+"Title": "Test",
+"BreifDescription": "Test Desc",
+"Description": "Test Description",
+"Timings": ["10:00"],
+"LocationName": "HNI",
+"LocationDescription": "HNI Museum Forum",
+"LocationType": "Campus",
+"LocationFacilities": ["All"],
+"LocationImage": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F248797%2Fpexels-photo-248797.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fnature%2F&docid=ShwNVOdFBcmkxM&tbnid=8c_UAo3gH_220M%3A&vet=10ahUKEwjK56rF1bbgAhXkoosKHdW3C4IQMwhqKAAwAA..i&w=500&h=200&bih=626&biw=681&q=image&ved=0ahUKEwjK56rF1bbgAhXkoosKHdW3C4IQMwhqKAAwAA&iact=mrc&uact=8",
+"OpeningHours": "09:00 to 17:00",
+"Address": "HNI, Paderborn",
+"Latitude": "100",
+"Longitude": "200",
+"Cost": "15 Euro",
+"Language": "English",
+"Age": "12",
+"Categories": "Music",
+"AccessLimitations": ["All"],
+"Organizer": "Arsalan",
+"OrganizerContact": "123456",
+"OrganizerLogo": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F248797%2Fpexels-photo-248797.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fnature%2F&docid=ShwNVOdFBcmkxM&tbnid=8c_UAo3gH_220M%3A&vet=10ahUKEwjK56rF1bbgAhXkoosKHdW3C4IQMwhqKAAwAA..i&w=500&h=200&bih=626&biw=681&q=image&ved=0ahUKEwjK56rF1bbgAhXkoosKHdW3C4IQMwhqKAAwAA&iact=mrc&uact=8",
+"Image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F248797%2Fpexels-photo-248797.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fnature%2F&docid=ShwNVOdFBcmkxM&tbnid=8c_UAo3gH_220M%3A&vet=10ahUKEwjK56rF1bbgAhXkoosKHdW3C4IQMwhqKAAwAA..i&w=500&h=200&bih=626&biw=681&q=image&ved=0ahUKEwjK56rF1bbgAhXkoosKHdW3C4IQMwhqKAAwAA&iact=mrc&uact=8",
+"SourceWebsite": "www.google.com",
+"Website": "www.google.com",
+"SourceWebsiteName": "Google",
+"TicketWebsite": "www.google.com",
+"ExtactionTime": "2012-04-23T18:25:43.511Z",
+"UserID": "123456ID",
+"UpdateTime": "2012-04-23T18:25:43.511Z",
+"Active": true
+}
+
+
+
+[
+    {
+        "Timings": [
+            "10:00"
+        ],
+        "LocationFacilities": [
+            "All"
+        ],
+        "Categories": [
+            "Music"
+        ],
+        "Active": true,
+        "_id": "5c62ff46f36ccd4bac6d38b8",
+        "eventID": "0011",
+        "Title": "Test event Updated",
+        "BreifDescription": "Test Desc",
+        "Description": "Test Description",
+        "LocationName": "HNI",
+        "LocationDescription": "HNI Museum Forum",
+        "LocationType": "Campus",
+        "LocationImage": "https://bit.ly/2ILg2ZK",
+        "OpeningHours": "09:00 to 17:00",
+        "Address": "HNI, Paderborn",
+        "Latitude": "100",
+        "Longitude": "200",
+        "Cost": "15 Euro",
+        "Language": "English",
+        "Age": "12",
+        "AccessLimitations": "All",
+        "Organizer": "Arsalan",
+        "OrganizerContact": "123456",
+        "OrganizerLogo": "https://bit.ly/2ILg2ZK",
+        "Image": "https://bit.ly/2ILg2ZK",
+        "SourceWebsite": "www.google.com",
+        "Website": "www.google.com",
+        "SourceWebsiteName": "Google",
+        "TicketWebsite": "www.google.com",
+        "ExtactionTime": "2012-04-23T18:25:43.511Z",
+        "UserID": "123456ID",
+        "UpdateTime": "2012-04-23T18:25:43.511Z",
+        "__v": 0
+    },
+    {
+        "Timings": [
+            "10:00"
+        ],
+        "LocationFacilities": [
+            "All"
+        ],
+        "Categories": [
+            "Music"
+        ],
+        "Active": true,
+        "_id": "5c62ffc4f36ccd4bac6d38b9",
+        "eventID": "0012",
+        "Title": "Test event",
+        "BreifDescription": "Test Desc",
+        "Description": "Test Description",
+        "LocationName": "HNI",
+        "LocationDescription": "HNI Museum Forum",
+        "LocationType": "Campus",
+        "LocationImage": "https://bit.ly/2ILg2ZK",
+        "OpeningHours": "09:00 to 17:00",
+        "Address": "HNI, Paderborn",
+        "Latitude": "100",
+        "Longitude": "200",
+        "Cost": "15 Euro",
+        "Language": "English",
+        "Age": "12",
+        "AccessLimitations": "All",
+        "Organizer": "Arsalan",
+        "OrganizerContact": "123456",
+        "OrganizerLogo": "https://bit.ly/2ILg2ZK",
+        "Image": "https://bit.ly/2ILg2ZK",
+        "SourceWebsite": "www.google.com",
+        "Website": "www.google.com",
+        "SourceWebsiteName": "Google",
+        "TicketWebsite": "www.google.com",
+        "ExtactionTime": "2012-04-23T18:25:43.511Z",
+        "UserID": "123456ID",
+        "UpdateTime": "2012-04-23T18:25:43.511Z",
+        "__v": 0
+    },
+    {
+        "Timings": [
+            "10:00"
+        ],
+        "LocationFacilities": [
+            "All"
+        ],
+        "Categories": [
+            "Music"
+        ],
+        "Active": true,
+        "_id": "5c64542ce5a37c1fc4ca0b9a",
+        "eventID": "0013",
+        "Title": "Test",
+        "BreifDescription": "Test Desc",
+        "Description": "Test Description",
+        "LocationName": "HNI",
+        "LocationDescription": "HNI Museum Forum",
+        "LocationType": "Campus",
+        "LocationImage": "https://bit.ly/2ILg2ZK",
+        "OpeningHours": "09:00 to 17:00",
+        "Address": "HNI, Paderborn",
+        "Latitude": "100",
+        "Longitude": "200",
+        "Cost": "15 Euro",
+        "Language": "English",
+        "Age": "12",
+        "AccessLimitations": "All",
+        "Organizer": "Arsalan",
+        "OrganizerContact": "123456",
+        "OrganizerLogo": "https://bit.ly/2ILg2ZK",
+        "Image": "https://bit.ly/2ILg2ZK",
+        "SourceWebsite": "www.google.com",
+        "Website": "www.google.com",
+        "SourceWebsiteName": "Google",
+        "TicketWebsite": "www.google.com",
+        "ExtactionTime": "2012-04-23T18:25:43.511Z",
+        "UserID": "123456ID",
+        "UpdateTime": "2012-04-23T18:25:43.511Z",
+        "__v": 0
+    },
+    {
+        "Timings": [
+            "10:00"
+        ],
+        "LocationFacilities": [
+            "All"
+        ],
+        "Categories": [
+            "Music"
+        ],
+        "Active": true,
+        "_id": "5c645b9be5a37c1fc4ca0b9b",
+        "eventID": "0014",
+        "Title": "Test 123",
+        "BreifDescription": "Test Desc",
+        "Description": "Test Description",
+        "LocationName": "HNI",
+        "LocationDescription": "HNI Museum Forum",
+        "LocationType": "Campus",
+        "LocationImage": "https://bit.ly/2ILg2ZK",
+        "OpeningHours": "09:00 to 17:00",
+        "Address": "HNI, Paderborn",
+        "Latitude": "100",
+        "Longitude": "200",
+        "Cost": "15 Euro",
+        "Language": "English",
+        "Age": "12",
+        "AccessLimitations": "All",
+        "Organizer": "Arsalan",
+        "OrganizerContact": "123456",
+        "OrganizerLogo": "https://bit.ly/2ILg2ZK",
+        "Image": "https://bit.ly/2ILg2ZK",
+        "SourceWebsite": "www.google.com",
+        "Website": "www.google.com",
+        "SourceWebsiteName": "Google",
+        "TicketWebsite": "www.google.com",
+        "ExtactionTime": "2012-04-23T18:25:43.511Z",
+        "UserID": "123456ID",
+        "UpdateTime": "2012-04-23T18:25:43.511Z",
+        "__v": 0
+    },
+    {
+        "Timings": [
+            "10:00"
+        ],
+        "LocationFacilities": [
+            "All"
+        ],
+        "Categories": [
+            "Music"
+        ],
+        "Active": true,
+        "_id": "5c645ba5e5a37c1fc4ca0b9c",
+        "eventID": "0015",
+        "Title": "Test 12345",
+        "BreifDescription": "Test Desc",
+        "Description": "Test Description",
+        "LocationName": "HNI",
+        "LocationDescription": "HNI Museum Forum",
+        "LocationType": "Campus",
+        "LocationImage": "https://bit.ly/2ILg2ZK",
+        "OpeningHours": "09:00 to 17:00",
+        "Address": "HNI, Paderborn",
+        "Latitude": "100",
+        "Longitude": "200",
+        "Cost": "15 Euro",
+        "Language": "English",
+        "Age": "12",
+        "AccessLimitations": "All",
+        "Organizer": "Arsalan",
+        "OrganizerContact": "123456",
+        "OrganizerLogo": "https://bit.ly/2ILg2ZK",
+        "Image": "https://bit.ly/2ILg2ZK",
+        "SourceWebsite": "www.google.com",
+        "Website": "www.google.com",
+        "SourceWebsiteName": "Google",
+        "TicketWebsite": "www.google.com",
+        "ExtactionTime": "2012-04-23T18:25:43.511Z",
+        "UserID": "123456ID",
+        "UpdateTime": "2012-04-23T18:25:43.511Z",
+        "__v": 0
+    },
+    {
+        "Timings": [
+            "10:00"
+        ],
+        "LocationFacilities": [
+            "All"
+        ],
+        "Categories": [
+            "Music"
+        ],
+        "Active": true,
+        "_id": "5c654d87ef354f22b4d32e1f",
+        "eventID": "0016",
+        "Title": "Test 12345 new",
+        "BreifDescription": "Test Desc",
+        "Description": "Test Description",
+        "LocationName": "HNI",
+        "LocationDescription": "HNI Museum Forum",
+        "LocationType": "Campus",
+        "LocationImage": "https://bit.ly/2ILg2ZK",
+        "OpeningHours": "09:00 to 17:00",
+        "Address": "HNI, Paderborn",
+        "Latitude": "100",
+        "Longitude": "200",
+        "Cost": "15 Euro",
+        "Language": "English",
+        "Age": "12",
+        "AccessLimitations": "All",
+        "Organizer": "Arsalan",
+        "OrganizerContact": "123456",
+        "OrganizerLogo": "https://bit.ly/2ILg2ZK",
+        "Image": "https://bit.ly/2ILg2ZK",
+        "SourceWebsite": "www.google.com",
+        "Website": "www.google.com",
+        "SourceWebsiteName": "Google",
+        "TicketWebsite": "www.google.com",
+        "ExtactionTime": "2012-04-23T18:25:43.511Z",
+        "UserID": "123456ID",
+        "UpdateTime": "2012-04-23T18:25:43.511Z",
+        "__v": 0
+    }
+]
