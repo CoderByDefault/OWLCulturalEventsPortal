@@ -1,0 +1,99 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <base href="/">
+            
+            <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+            <script src="../filter.js"></script>
+    </head>
+    <body>
+            <div class="banner" style="background-image: url(../assets/browseBanner.jpg); width: 100%; height: 350px;">
+	
+            </div>
+
+            <div class="">
+                <br><br>
+                <div class="col-md-3">
+                        <form class="form-inline md-form form-sm">
+                            <h4 for="Search">Search By Name</h4>
+                            <br>
+                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                <input style="width: 90%; box-shadow: inset 0 0px 0px rgba(0,0,0,.075); border-left:0px;border-right:0px;border-top:0px;border-bottom:1px #dedede solid;" class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" name="Search" id="Search" aria-label="Search">
+                        </form>
+                        <br>
+                        <form class="form-inline md-form form-sm">
+                                <h4 for="Search">Category</h4>
+                                <br>
+                                <div *ngFor="let item of eventItemList | unique : 'Categories'" class="form-check" >
+                                        <input class="form-check-input" type="checkbox" value="" id={{item.Categories}}>
+                                        <label style="margin-left:2%;" class="form-check-label " for={{item.Categories}}>{{item.Categories}}
+                                        </label>
+                                </div>
+                                
+                        </form>
+                        <br>
+
+                        
+                </div>
+                <div class="category_container">
+                        <p class="category_item" id="all">All</p>
+                        <div *ngFor="let item of eventItemList | unique : 'Categories'" class="form-check" >
+                                <p style="cursor: pointer;" class="category_item" id={{item.Categories}}>{{item.Categories}}</p>
+                        </div>
+                    </div>
+                <div class="col-md-9 block-container" >
+                    
+                        <h2>Music Events <a href="#"> - View All</a></h2>
+                        <br>
+                            <div class="row">
+                          
+                                <div *ngFor="let item of eventItemList" style="transition: all 0.4s ease-in-out" class="col-md-4 col-sm-4 col-xs-12 {item.Categories}}">
+                                    
+                                  
+                                  <table style="width: 100%; outline:1px solid #bebebe; outline-offset: 10px;">
+                                    <tr>
+                                      <td colspan="2"><img class="img-responsive" style="object-fit: cover; width: 100%; height: 180px;" src={{item.Image}}></td>
+                                    </tr>
+                                    <tr>
+                                      <td colspan="2" style="font-size: 1.3em; overflow: hidden;
+                                      text-overflow: ellipsis;
+                                      display: -webkit-box; 
+                                      -webkit-line-clamp: 2;
+                                      -webkit-box-orient: vertical;padding-top: 7px; padding-bottom: 10px;"> <a style="color:#222;" routerLink="/eventDetail/{{item._id}}">{{item.Title}}</a> </td>
+                                    </tr>
+                                    <tr>
+                                      <td  colspan="2" style="font-size:0.8em;  overflow: hidden;
+                                      text-overflow: ellipsis;
+                                      display: -webkit-box; 
+                                      -webkit-line-clamp: 2;
+                                      -webkit-box-orient: vertical;">{{item.BreifDescription}}</td>
+                                    </tr>
+                                    <br>
+                                    <tr>
+                                      <td style="font-size:0.7em; color: #2d84d6;padding-bottom: 7px;"><span class="glyphicon glyphicon-tag"></span> {{item.Categories}}</td>
+                                      <td style="font-size:1.0em; float: right; color: #d67f2d; padding-bottom: 7px;"><span class="glyphicon glyphicon-calendar"></span> 25 Jan</td>
+                                    </tr>
+                                    <tr>
+                                      <td style="font-size:0.9em"><span class="glyphicon glyphicon-map-marker"></span><strong> {{item.LocationName}} </strong><br> {{item.Address}}</td>
+                                      <td style="font-size:0.9em; float: right; color: #d67f2d; padding-bottom: 7px;"><span class="glyphicon glyphicon-time"></span> {{item.Timings}}</td>
+                                    </tr>
+                                    <tr>
+                                      <td style="float: left; color: #47c963"><h5 style="font-size:1.1em; font-weight: 600;">{{item.Cost}} &euro;</h5></td>
+                                      <td><a routerLink="/eventDetail/{{item._id}}" class="btn btn-success" style="float: right;">Details</a></td>
+                                    </tr>
+                                    
+                                  </table>
+                                  
+                                  <br>
+                                
+                            </div>
+                                
+                            </div>
+                            <br>
+                </div>
+            </div>
+    </body>
+</html>           
